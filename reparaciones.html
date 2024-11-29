@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reparaciones - ServiTec</title>
     <!-- Favicon -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/IconRepLog.png" type="image/x-icon">
   <link rel="stylesheet" href="styles.css">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
             <div class="logo">
-                <img src="img/icono electri.jpg" alt="Logo ServiTec" class="logo-img">
+                <img src="img/IconoElec.png" alt="Logo ServiTec" class="logo-img">
             </div>
           <a class="navbar-brand" href="#">ServiTec</a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item px-lg-4 {% if request.path == '/' %}active{% endif %}">
-                <a class="nav-link text-uppercase text-expanded" href="index.html"><i class="fa fa-home"></i>Inicio</a>
+                <a class="nav-link text-uppercase text-expanded" href="index.html"><i class="fa fa-home"></i>Home</a>
               </li>
               <li class="nav-item px-lg-4 {% if request.path == '/about/' %}active{% endif %}">
                 <a class="nav-link text-uppercase text-expanded" href="servicio-tecnico.html">Servicio Técnico</a>
@@ -48,8 +48,7 @@
   <div class="portadaReparacion">
     <section class="portada-content text-center">
       <h2 class="mt-4">Reparaciones</h2>
-      <img src="images/reparaciones.jpg" alt="Imagen de reparaciones" class="img-fluid mt-3">
-      <p class="mt-4">Reparación de electrodomésticos y sistemas eléctricos.</p>
+      <p class="mt-4">Reparación de electrodomésticos e instalacion de sistemas eléctricos.</p>
 
           <!-- Lista de reparaciones -->
     <div class="container mt-5">
@@ -85,6 +84,30 @@
             <p>Instalación de lámparas solares en cualquier modelo.</p>
           </div>
         </div>
+
+        <!-- Más proyectos -->
+        <!-- Ejemplo de un proyecto adicional -->
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <img class="img-fluid" src="img/reflector.jpg" alt="Reparación de ventiladores">
+          </div>
+          <div class="col-lg-8 col-md-6">
+            <h5 class="section-heading">Reflectores</h5>
+            <p>Instalacion de reflectores en serie, paralelo u independientes 120v con sensor de luz (fotocelda)</p>
+          </div>
+        </div>
+
+        <!-- Más proyectos -->
+        <!-- Ejemplo de un proyecto adicional -->
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <img class="img-fluid" src="img/fotocelda.png" alt="Reparación de ventiladores">
+          </div>
+          <div class="col-lg-8 col-md-6">
+            <h5 class="section-heading">Instalacion de fotoceldas</h5>
+            <p>Instalacion de fotoceldas para reflectores, focos leds y mas</p>
+          </div>
+        </div>
   
         <!-- Más proyectos -->
         <!-- Ejemplo de un proyecto adicional -->
@@ -97,48 +120,75 @@
             <p>Diagnóstico y reparación de problemas comunes como: no arranca, aspas desequilibradas, acumulación de polvo, entre otros.</p>
           </div>
         </div>
+
+        <!-- Más proyectos -->
+        <!-- Ejemplo de un proyecto adicional -->
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <img class="img-fluid" src="img/licuadora.jpg" alt="Reparación de ventiladores">
+          </div>
+          <div class="col-lg-8 col-md-6">
+            <h5 class="section-heading">Reparación de Licuadoras</h5>
+            <p>Reparacion de Licuadoras Algunas fallas comunes como: Desgaste en las aspas, Si la licuadora huele a quemado, Cuadro o impulsor barrido, Pérdida de potencia en el motor.</p>
+          </div>
+        </div>
+         <!-- Más proyectos -->
+        <!-- Ejemplo de un proyecto adicional -->
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <img class="img-fluid" src="img/plancha.jpg" alt="Reparación de ventiladores">
+          </div>
+          <div class="col-lg-8 col-md-6">
+            <h5 class="section-heading">Reparación de Planchas</h5>
+            <p>Algunas fallas comunes en las planchas eléctricas son: No enciende, No calienta, No echa vapor, Si la plancha gotea.</p>
+          </div>
+        </div>
       </div>
 
     </section>
 
-              <!-- Pié de página -->
-              <footer>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-8 col-md-10 mx-auto">
-                      <ul class="list-inline text-center">
-                        <li class="list-inline-item">
-                          <a href="#">
-                            <span class="fa-stack fa-lg">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                          </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <a href="#">
-                            <span class="fa-stack fa-lg">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                          </a>
-                        </li>
-                        <li class="list-inline-item">
-                          <!--ref iconos-->
-                          <a href="#">
-                            <span class="fa-stack fa-lg">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
-                            </span>
-                          </a>
-                        </li>
-                      </ul>
-                      <p class="colorcontacto">ServiTec 2024 · Tu solución confiable para la reparación de celulares, laptops, computadoras y más.</p>
-                    </div>
-                  </div>
+          <!-- Pié de página -->
+          <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                  <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                      <a href="contacto.html">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <!--ref iconos-->
+                      <a href="https://wa.me/qr/X6OFDBQRQUZCG1">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="colorcontacto">ServiTec-Salm:37 · Tu solución confiable para la reparación de celulares, laptops, computadoras y más.</p>
                 </div>
-              </footer>
+              </div>
+            </div>
+          </footer>
 </div>
+ <!-- Archivos JS necesarios -->
+ <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -24,47 +24,11 @@ body {
     padding: 20px;
     border-radius: 10px;
   }
-  
-  .portada-content-indice h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .portada-content-indice p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  
-  .portada-content-indice ul {
-    text-align: left;
-    margin: 0 auto 20px;
-    display: inline-block;
-    list-style: none;
-    padding: 0;
-  }
-  
+    
   .portada-content-indice ul li {
     margin: 5px 0;
     font-size: 1.1rem;
-  }
-  
-  .btn-primary-indice {
-    background-color: #0905c7bb; /* Botón semi-transparente */
-    border: 2px solid #0306b4f8; /* Borde con un tono más oscuro */
-    padding: 5px 10px; /* Tamaño del botón */
-    font-size: 1rem; /* Tamaño del texto */
-    color: #ffffff; /* Texto blanco */
-    border-radius: 6px; /* Bordes redondeados */
-    text-decoration: none; /* Sin subrayado */
-    transition: background-color 0.3s, border-color 0.3s; /* Animación en hover */
-  }
-  
-  .btn-primary-indice:hover {
-    background-color: #1c19e6; /* Cambio a un azul más sólido en hover */
-    border-color: #192ee6; /* Borde más vibrante */
-    color: #ffffff; /* Aseguramos que el texto siga siendo blanco */
-  }
-    
+  } 
 .portadacontacto {
     background-image: url('img/Contact1.png'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Ajusta la imagen para que cubra toda el área */

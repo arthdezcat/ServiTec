@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicio Técnico - ServiTec</title>
+     <!-- Favicon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href="vendor/clean-blog.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <div class="logo">
+                <img src="img/icono electri.jpg" alt="Logo ServiTec" class="logo-img">
+            </div>
+          <a class="navbar-brand" href="#">ServiTec</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menú
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-lg-4 {% if request.path == '/' %}active{% endif %}">
+                <a class="nav-link text-uppercase text-expanded" href="index.html"><i class="fa fa-home"></i>Inicio</a>
+              </li>
+              <li class="nav-item px-lg-4 {% if request.path == '/about/' %}active{% endif %}">
+                <a class="nav-link text-uppercase text-expanded" href="servicio-tecnico.html">Servicio Técnico</a>
+              </li>
+              <li class="nav-item px-lg-4 {% if request.path == '/portfolio/' %}active{% endif %}">
+                <a class="nav-link text-uppercase text-expanded" href="reparaciones.html">Reparaciones</a>
+              </li>
+              <li class="nav-item px-lg-4 {% if request.path == '/contact/' %}active{% endif %}">
+                <a class="nav-link text-uppercase text-expanded" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="portadaServi">
+    <section class="portada-content">
+    <h2>Servicio Técnico</h2>
+    <img src="images/servicio-tecnico.jpg" alt="Imagen de servicio técnico">
+    <p>Ofrecemos mantenimiento y reparación para celulares, laptops y computadoras.</p>
+
+    
+  <!-- Portada -->
+       <!-- Lista de servicios técnicos -->
+       <div class="container mt-5">
+        <!-- Servicio Técnico 1: Reparación de Celulares -->
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <img class="img-fluid" src="img/celular_reparacion.jpg" alt="Reparación de celulares">
+          </div>
+          <div class="col-lg-8 col-md-6">
+            <h5 class="section-heading">Reparación de Celulares</h5>
+            <p><b>Servicios ofrecidos:</b> Cambio de pantalla, reparación de botones, cambio de batería, reparación de cámaras, software, entre otros.</p>
+          </div>
+        </div>
+    
+        <!-- Servicio Técnico 2: Reparación de Laptops -->
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <img class="img-fluid" src="img/laptop_reparacion.jpg" alt="Reparación de laptops">
+          </div>
+          <div class="col-lg-8 col-md-6">
+            <h5 class="section-heading">Reparación de Laptops</h5>
+            <p><b>Servicios ofrecidos:</b> Reparación de pantalla, cambio de teclado, solución de problemas de encendido, reparación de puertos USB, actualización de software, etc.</p>
+          </div>
+        </div>
+    
+        <!-- Servicio Técnico 3: Reparación de Computadoras -->
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <img class="img-fluid" src="img/computadora_reparacion.jpg" alt="Reparación de computadoras">
+          </div>
+          <div class="col-lg-8 col-md-6">
+            <h5 class="section-heading">Reparación de Computadoras</h5>
+            <p><b>Servicios ofrecidos:</b> Solución de problemas de hardware, instalación de software, optimización del sistema, eliminación de virus, reparación de discos duros, etc.</p>
+          </div>
+        </div>
+    
+        <!-- Servicio Técnico 4: Mantenimiento de dispositivos -->
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <img class="img-fluid" src="img/mantenimiento.jpg" alt="Mantenimiento de dispositivos">
+          </div>
+          <div class="col-lg-8 col-md-6">
+            <h5 class="section-heading">Mantenimiento Preventivo</h5>
+            <p><b>Servicios ofrecidos:</b> Limpieza interna de equipos, actualización de sistemas, optimización del rendimiento, revisión de componentes y más.</p>
+          </div>
+        </div>
+      </div>
+    
+  </section>
+
+          <!-- Pié de página -->
+          <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                  <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <!--ref iconos-->
+                      <a href="#">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="colorcontacto">ServiTec 2024 · Tu solución confiable para la reparación de celulares, laptops, computadoras y más.</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+  </div>
+
+</body>
+</html>

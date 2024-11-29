@@ -1,0 +1,95 @@
+
+<!--que sea responsivo-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - ServiTec</title>
+   <!-- Favicon -->
+   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href="vendor/clean-blog.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <div class="logo">
+                <img src="img/icono electri.jpg" alt="Logo ServiTec" class="logo-img">
+            </div>
+          <a class="navbar-brand" href="#">ServiTec</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menú
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-lg-4 {% if request.path == '/' %}active{% endif %}">
+                <a class="nav-link text-uppercase text-expanded" href="index.html"><i class="fa fa-home"></i>Inicio</a>
+              </li>
+              <li class="nav-item px-lg-4 {% if request.path == '/about/' %}active{% endif %}">
+                <a class="nav-link text-uppercase text-expanded" href="servicio-tecnico.html">Servicio Técnico</a>
+              </li>
+              <li class="nav-item px-lg-4 {% if request.path == '/portfolio/' %}active{% endif %}">
+                <a class="nav-link text-uppercase text-expanded" href="reparaciones.html">Reparaciones</a>
+              </li>
+              <li class="nav-item px-lg-4 {% if request.path == '/contact/' %}active{% endif %}">
+                <a class="nav-link text-uppercase text-expanded" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="portadacontacto">
+    <section class="portada-content">
+    <h2>Contacto</h2>
+    <img src="images/contacto.jpg" alt="Imagen de contacto">
+    <p>Teléfono: +123 456 789</p>
+    <p>Email: contacto@servitech.com</p>
+  </section>
+      <!-- Pié de página -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <!--ref iconos-->
+                  <a href="#">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+              <p class="colorcontacto">ServiTec 2024 · Tu solución confiable para la reparación de celulares, laptops, computadoras y más.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+  </div>
+</body>
+</html>

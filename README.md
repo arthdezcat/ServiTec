@@ -1,2 +1,0 @@
-# ServiTec
-ServiTec
